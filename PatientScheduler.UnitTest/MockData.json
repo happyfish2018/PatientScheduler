@@ -1,0 +1,22 @@
+﻿{
+    "Doctors": 
+    [
+        { "Name": "Tom", "Roles": [ "Oncologist" ] },
+        { "Name": "Jerry", "Roles": [ "GeneralPractitioner" ] },
+        { "Name": "Mary", "Roles": [ "Oncologist", "GeneralPractitioner" ] }        
+    ],
+    "TreatmentMachines": 
+    [
+        { "Name": "MachineOne", "Capability": "Advanced" },
+        { "Name": "MachineTwo", "Capability": "Simple" },
+        { "Name": "MachineThree", "Capability": "Simple" }
+
+    ],
+    "TreatmentRooms": 
+    [
+        { "Name": "RoomA" },        
+        { "Name": "RoomB", "TreatmentMachine": "MachineOne" },
+        { "Name": "RoomC", "TreatmentMachine": "MachineTwo" },
+        { "Name": "RoomD", "TreatmentMachine": "MachineThree" }
+    ]
+}
